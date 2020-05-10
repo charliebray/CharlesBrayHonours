@@ -160,8 +160,6 @@ class Plotting_Spectra(object):
 
 		decompose.improve_fitting = True
 
-		# increase (decrease) snr and significance to decrease (increase) fittings.
-
 		decompose.exclude_mean_outside_channel_range = True
 		decompose.min_fwhm = self.min
 		decompose.max_fwhm = 64.
