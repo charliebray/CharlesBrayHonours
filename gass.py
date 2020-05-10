@@ -9,7 +9,7 @@ from astropy.io import fits
 from astropy.utils.data import get_pkg_data_filename
 from matplotlib.patches import Rectangle
 
-# This is an example of using the classes.py file to create the image in my thesis, with the peak optical depths placed over
+# This is an example of using the classes.py file to create one of the images in my thesis, with the peak optical depths placed over
 #	the GASS column density image.
 
 # This is the name of the fits file from GASS.
