@@ -58,7 +58,7 @@ LMC_no_abs_list = [["0514-6707.1419.fits", 149, 150], ["0454-7040.1419.fits", 15
 		["0540-6906.1419.fits", 151, 149]]
 
 # These are the criteria emission spectra, we require SNR>5 and FWHM>5.
-em_min = 5.0
+em_min = 3.0
 em_sig = 5.0
 
 # These are the lists we will use to store all the individual information/properties.
