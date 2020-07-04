@@ -39,7 +39,7 @@ class Abs_Spectra(object):
 		self.dec = self.hdu[0].header["CRVAL2"]
 
 	# method converts radial velocity to units of km/s, and T_B is the corresponding flux/brightness temperature array
-	# returning two new attributes self.vrad and self.T_B respectively
+	# returning two new attributes self.vrad (radial velocity array) and self.T_B (flux array) respectively
 	def raw_spectra(self):
 		flux_list = list()
 		vrad_list = list()
