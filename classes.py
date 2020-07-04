@@ -82,8 +82,8 @@ class Abs_Spectra(object):
 		self.tau_raw = tau_array
 		self.opacity = 1 - np.exp(-1*self.tau_raw)
 
-		# Katie's awesome smoothing
-		hanning_sz = 9
+		# Katie's awesome (hanning) smoothing, width is 5 velocity channels wide
+		hanning_sz = 5
 		hann_window = np.hanning(hanning_sz)
 		hann_kernel = CustomKernel(hann_window)
 		self.tau = convolve(self.tau, hann_kernel, boundary='extend')
