@@ -190,10 +190,10 @@ class Plotting_Spectra(object):
 		gaussian_list = list()
 		num_components = int(len(self.params)/3)
 		for i in range(0, num_components):
-			Amp = self.params[i]
+			amp = self.params[i]
 			fwhm = self.params[i+num_components]
 			mu = self.params[i+int(2*num_components)]
-			gaussian_list.append(Amp*np.exp(-4*np.log(2) * (x-mu)**2/(fwhm**2)))
+			gaussian_list.append(amp*np.exp(-4*np.log(2) * (x-mu)**2/(fwhm**2)))
 		return gaussian_list
 
 	# plots the x and y data, and gaussian decomps with sum (requires that the .gpp_parameters method has been performed)
