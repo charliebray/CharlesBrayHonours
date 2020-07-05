@@ -1,4 +1,4 @@
-# CharlesBrayHonours
+# Charles Bray Honours Code
 
 Basically everything produced came from "classes.py", it allows you to create the spectra of both absorption and emission .fits files easily, along
  with gaussian decomposition using GaussPy+ (install it in the same location as classes.py). Hopefully it all makes (at least) some sense. I recommend downloading "classes.py"
