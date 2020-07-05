@@ -11,7 +11,7 @@ abs_obj.optical_depth()
 
 plt.xlim(-100, 75)
 plt.plot(abs_obj.vrad, abs_obj.tau_raw, label="Raw")
-plt.plot(abs_obj.vrad, abs_obj.tau, label="Smoothed")
+#plt.plot(abs_obj.vrad, abs_obj.tau, label="Smoothed")
 plt.xlabel(r"Radial Velocity, $v$ (km/s)")
 plt.ylabel(r"Optical Depth, $\tau$")
 plt.grid()
