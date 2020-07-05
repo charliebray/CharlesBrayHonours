@@ -5,6 +5,8 @@ Basically everything produced came from "classes.py", it allows you to create th
  and placing it in the same directory as an absorption and emission .fits file for a line of sight and playing around with it. Also look at "example_absorption_spectrum.py" and
  "example_emission_spectrum.py" for simple examples of how it can be used. Make sure you have GaussPy+ installed as well!
  
-I decided not to upload every .py file for my thesis since there's several dozen of them, some neat and some not so neat... so I tried to include the ones I thought were the neatest, and those that give the best example of how to use "classes.py" to complete tasks. I unfortunately can't include the absorption .fits files I have used since they're too large, but their names are given in the "gass.py" file and a few others as well (I think you have the .fits files in your directory on the RSAA network), but let me know if I need to hand them to you through some other medium!
+I decided not to upload every .py file for my thesis since there's several dozen of them (with hundreds of lines of code!), some neat and some not so neat... so I tried to include the ones I thought were the neatest, and those that give the best example of how to use "classes.py" to complete tasks. I unfortunately can't include the absorption .fits files I have used since they're too large, but their names are given in the "gass.py" file and a few others as well (I think you have the .fits files in your directory on the RSAA network), but let me know if I need to hand them to you through some other medium!
 
-If you need any clarification or want me to upload the code for a particular figure, please e-mail me @ charles.jbray@gmail.com
+I created a "Figures" folder that has subfolders, each named after a chapter in my thesis. In each of these subfolders are the figures I produced for that respective chapter along with the code. Although, the code is messy! I haven't commented these python files, so let me know if you'd like me to comment any of them in particular and I would be happy to do so! 
+
+Let me know if you need any clarification :)
